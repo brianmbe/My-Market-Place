@@ -1,0 +1,15 @@
+.main-image {
+  background-image: url("../images/shop\ background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-image__component {
+  height: 7rem;
+  background-color: coral;
+}
+
+.image {
+  width: 50%;
+}
