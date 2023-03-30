@@ -36,3 +36,8 @@ body {
 .header {
   background-color: #edf1f5;
 }
+
+.discount-text {
+  top: 5%;
+  right: 5%;
+}

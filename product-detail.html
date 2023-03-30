@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="static/css/products-details.css" />
   </head>
   <body>
-    <!-- Breadcrumb starts -->
+    <!-- Product details and more start -->
     <div class="container">
+      <!-- Breadcrumb starts -->
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="./home-page.html">Home</a></li>
@@ -28,11 +29,7 @@
           </li>
         </ol>
       </nav>
-    </div>
-    <!-- Breadcrumb ends -->
-
-    <!-- Product details and more start -->
-    <div class="container">
+      <!-- Breadcrumb ends -->
       <div class="card rounded-2">
         <div class="card-body">
           <div class="row">
@@ -124,10 +121,12 @@
                 <div class="col shadow-sm">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title text-uppercase">
+                      <h5
+                        class="d-inline card-title p-2 rounded-2 text-uppercase header"
+                      >
                         Product Specification
                       </h5>
-                      <ul>
+                      <ul class="mt-3">
                         <li><b>SKU:</b> GE779EA1IFPSCNAFAMZ</li>
                         <li><b>Model:</b> HK3 PRO</li>
                         <li><b>Weight (kg):</b> 0.1</li>
@@ -139,9 +138,13 @@
                 <div class="col shadow-sm">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title text-uppercase">Key features</h5>
+                      <h5
+                        class="d-inline card-title p-2 rounded-2 text-uppercase header"
+                      >
+                        Key features
+                      </h5>
 
-                      <ul>
+                      <ul class="mt-3">
                         <li>
                           Compatible system: Android4.4 (inclusive) or above,
                           IOS9.0 (inclusive) or above
@@ -163,10 +166,12 @@
                 <div class="col shadow-sm">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title text-uppercase">
+                      <h5
+                        class="d-inline card-title p-2 rounded-2 text-uppercase header"
+                      >
                         Product Specification
                       </h5>
-                      <p class="card-text">
+                      <p class="card-text mt-3">
                         This is a longer card with supporting text below as a
                         natural lead-in to additional content.
                       </p>
@@ -176,10 +181,12 @@
                 <div class="col shadow-sm">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title text-uppercase">
+                      <h5
+                        class="d-inline card-title p-2 rounded-2 text-uppercase header"
+                      >
                         Product Specification
                       </h5>
-                      <p class="card-text">
+                      <p class="card-text mt-3">
                         This is a longer card with supporting text below as a
                         natural lead-in to additional content. This content is a
                         little bit longer.
@@ -189,6 +196,86 @@
                 </div>
               </div>
             </div>
+
+            <!-- similar products -->
+            <section class="mt-3">
+              <h3 class="text-center header rounded-2 p-2 mt-5">
+                Customers are also viewing
+              </h3>
+
+              <div class="row row-cols-1 row-cols-md-6 g-4">
+                <div class="col shadow-sm object-fit-cover">
+                  <div class="card position-relative">
+                    <img
+                      src="./static/images/headphones.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <h5 class="card-title">Card title</h5>
+                    <h4>UGX 35,000</h4>
+                    <div
+                      class="position-absolute discount-text text-danger bg-white p-2 rounded-2"
+                    >
+                      50% Off
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./static/images/headphones yellow.jpg"
+                      class="card-img-top w-100"
+                      alt="..."
+                    />
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./static/images/smartwatch.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./static/images/Keyboard.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./static/images/smartphone_1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="./static/images/shoes-vans.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+              </div>
+              <a href="./">More products</a>
+            </section>
+            <!-- similar products end-->
           </div>
         </div>
       </div>

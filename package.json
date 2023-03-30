@@ -1,0 +1,22 @@
+{
+  "name": "my-market-place",
+  "version": "1.0.0",
+  "description": "an online ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianmbe/My-Market-Place.git"
+  },
+  "author": "Brian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianmbe/My-Market-Place/issues"
+  },
+  "homepage": "https://github.com/brianmbe/My-Market-Place#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3"
+  }
+}

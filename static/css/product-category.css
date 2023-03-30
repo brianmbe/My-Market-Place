@@ -1,0 +1,36 @@
+body {
+  background-color: #edf1f5;
+  margin-top: 20px;
+}
+
+.old-price {
+  text-transform: line-through;
+  opacity: 50%;
+}
+
+.percentage-cut {
+  right: 0;
+  top: -578%;
+}
+
+.product-card {
+  cursor: pointer;
+}
+
+.product-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.percentage-cut-hotselling {
+  top: 3%;
+  right: 15%;
+  background-color: pink;
+}
+
+.products-button {
+  background-color: blueviolet;
+}
+
+.products-button:hover {
+  background-color: rgb(75, 16, 129);
+}
